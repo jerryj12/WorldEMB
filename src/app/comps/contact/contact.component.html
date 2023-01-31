@@ -1,0 +1,141 @@
+<div class="pricing">
+    <!--<img id="phead" src="/assets/Group 1713.png" alt="" srcset="">-->
+    <img src="/assets/contbg1.png" alt="" srcset="" id="pricebg">
+    <div class="pricetext">
+        <h1 id="h11" data-aos="fade-down" data-aos-once="true" data-aos-duration="1000"
+		data-aos-easing="ease-in-out">Get In Touch</h1>
+    </div>
+    <img id="pricingl" src="/assets/ourport2.png" alt="" srcset="">
+    <img id="pricingr" src="/assets/ourport3.png" alt="" srcset="">
+</div>
+
+
+<div class="contactpage">
+	<div class="con cont1">
+		<img src="/assets/callus.png" alt="" srcset="">
+	<p style="color: #5694CB">Call us</p>
+	<p style="color: #062150;">(+1 860-847-8640)</p>
+</div>
+<div class="con cont2">
+	<img src="/assets/visit.png" alt="" srcset="">
+	<p style="color: #5694CB">Visit us</p>
+	<p style="color: #062150;">315 Nanners way, Corona, Corona,<br> CA, United States, California.</p>
+</div>
+<div class="con cont3">
+	<img src="/assets/pitchus.png" alt="" srcset="">
+	<p style="color: #5694CB">Pitch us</p>
+	<p style="color: #062150;">designs@worldemb.com</p>
+</div>
+</div>
+<div class="forms-cont">
+	<form #login="ngForm" (ngSubmit)="submits(login)" class="for-m fm2" method="post">
+		<h2 style="color: #08366D; padding-left: 20px;">Ask us if you have any inquiry?</h2>
+		<select #selected="ngModel" required class="form-select" name="service" [(ngModel)]="service" aria-label="Default select example">
+			<option selected>Select Service</option>
+			<option value="Logo Digitizing">Logo Digitizing</option>
+			<option value="Vector Art">Vector Art</option>
+			<option value="Embriodery Digitizing">Embriodery Digitizing</option>
+		  </select>
+
+		  
+		  <div id="text">
+			<span style="color: red;" *ngIf="login.touched && service == 'Select Service'">Please Select a Service</span>
+		<input #names="ngModel" required minlength="3"  type="text" id="textin" name="name" [(ngModel)]="name"  placeholder="Your Name*" ngModel><br>
+		<span style="color: red;width: 85%;" *ngIf="name == ''&&submit == 'true'">Name is required</span>
+		<span style="color: red;width: 85%;" *ngIf="names.touched && names.invalid">Name is Invalid</span></div>
+		<div id="email" >
+		<input #emails="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  type="email" id="emailin" name="email" [(ngModel)]="email" placeholder="Your Email*" required ngModel><br>
+	<span style="color: red; width: 80%;" *ngIf="email == ''&&submit == 'true'">Email is required</span>	
+		<span style="color: red; width: 80%;" *ngIf="emails.touched &&emails.invalid">Email is Invalid</span></div>
+		<input #numbers="ngModel" required minlength="5" type="number" name="phone" id="phone" [(ngModel)]="phone" placeholder="Your Phone Number*"><br>
+		
+		<span style="color: red;" *ngIf="phone == ''&&submit == 'true'">Phone is Invalid</span>
+		<span style="color: red;" *ngIf="numbers.touched && numbers.invalid">Phone is Invalid</span>
+		<textarea name="inquiry" id="inquiry" cols="30" rows="10" [(ngModel)]="inquiry" placeholder="Your Inquiry*" required ngModel></textarea>
+		<input type="file" id="file" name="file" (change)="onChange($event)" src=""[(ngModel)]="file" alt="">
+		<button type="submit" class="btn btn-m" style="border:1px solid #5694CB; margin-left: 20px;">Submit</button>
+		<div class="alert alert-warning alert-dismissible fade show" role="alert" *ngIf="submit == 'true'&& email!=''&& name!=''&& phone!=''">
+			<strong>Thanks for Contacting! We will be in touch with you shortly.</strong> 
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+		  </div> 
+		<!--  <div class="alert alert-warning alert-dismissible fade show" role="alert" *ngIf=" submit == 'true'&& email==''&& name==''&& phone==''">
+			<strong>Please fill the form!</strong> 
+			<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+		  </div>
+		-->
+	</form>
+	<div class="for-m fm1">
+<img src="/assets/contg.png" alt="" srcset="" id="contmock">
+	</div>
+</div>
+<div class="direction"><h1 style="color: #5694CB;">Get Directions</h1>
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.7851679219793!2d67.06438941427263!3d24.93938748401672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x238a151329c68d19!2s7JP9W3Q8%2BQJ4!5e0!3m2!1sen!2s!4v1670869828955!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<!-- 
+	<div class="container">
+		<div class="section-contact">
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-10 col-xl-8">
+					<div class="header-section text-center">
+						<h2 class="title">Get Qoute
+							<span class="dot"></span>
+							<span class="big-title">CONTACT</span>
+						</h2>
+						<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur commodo risus, nec pellentesque turpis efficitur non.</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="form-contact">
+				<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-user"></i>
+								<input type="text" name="name" placeholder="ENTER YOUR NAME">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-envelope"></i>
+								<input type="text" name="email" placeholder="ENTER YOUR EMAIL">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-phone"></i>
+								<input type="text" name="phoneNumber" placeholder="ENTER YOUR PHONE NUMBER">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-check"></i>
+								<input type="text" name="subject" placeholder="ENTER YOUR SUBJECT">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="single-input">
+								<i class="fas fa-comment-dots"></i>
+								<textarea placeholder="ENTER YOUR MESSAGE"></textarea>
+							</div>
+							<div class="single-input">
+								<input type="file" name="" id="">
+							</div>
+
+						</div>
+						<div class="col-12">
+							<div class="submit-input text-center">
+								<input type="submit" name="submit" value="SUBMIT NOW">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	/ END CONTACT SECTION -->
+	

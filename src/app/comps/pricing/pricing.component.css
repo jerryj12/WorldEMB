@@ -1,0 +1,392 @@
+.pricing{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    
+}
+#phead{
+    margin-top: 40px;
+}
+#pricebg{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+.pricetext{
+    margin-top: 10vw;
+}
+.btn{
+    background-color: white;
+    color: #5694CB;
+}
+
+#pricingl{
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#pricingr{
+    position: absolute;
+    width: 30%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.plans{
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+ align-items: center;
+ background-color: white;
+
+
+}
+.forbg{
+    background-image: url('/assets/pricinganother.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pl{
+    padding-top: 10%;
+    margin: 10px;
+}
+.plan3{
+background-color: white;
+display: flex;
+padding-top: 5%;
+flex-wrap: wrap;
+justify-content: center;
+height: max-content;
+}
+.plan1{
+    width: 30%;
+    height: 800px;
+    
+}
+#customimage{
+    position: absolute;
+    left: 0;
+ 
+    margin: -20px;
+}
+.basic{
+    margin-top: 60px;
+    background-image: url("/assets/basic.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.hover-fx:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+  }
+.standard{
+    background-image: url("/assets/standard.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.premium{
+
+    margin-top: 60px;
+    background-image: url("/assets/premium.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.textpl{
+    margin-top: 40%;
+    margin-left: 15%;
+}
+.order{
+    float: right;
+    color: white;
+}
+.planv{
+  justify-content: end;
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+#planv{
+    float: right;
+    position: absolute;
+    z-index: -1;
+}
+.planbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+
+}
+.planbottoms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 90px;
+
+}
+.faqs{
+    margin-top: 10%;
+    display: flex;
+    height: max-content;
+    width: 100vw;
+    justify-content: center;
+}
+#faqimg{
+    width: 80%;
+}
+.questions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ques{
+    
+  width: 50%;
+  text-align: center;
+}
+.btn-group{
+    margin: 5%;
+    width: 80%;
+    height: 100px;
+    color: 5694CB;
+}
+.h11{
+    z-index: 9999; color:#FFC200; font-weight: bold; font-size: 100px;
+}
+.compared{
+    background-image: url("/assets/comparedimg.png");
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+
+.table-responsive{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    width: 70%;
+}
+.comp3{
+    margin-top: 80px;
+}
+thead{
+    background-color: #FFC200;
+}
+#respbtn{
+    display: none;
+}
+.custombtn{
+    background-color: white;
+    width: 100%;
+    padding-top: 5%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+ align-items: center;
+    
+}
+.cbut{
+    border: 1px solid black;
+    width: 200px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.377);
+    margin: 10px;
+}
+.btn-outline-primary:focus{
+    color: white;
+    background-color: #5694CB;
+   /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(5,102,182,1) 48%, rgba(0,212,255,1) 85%);*/
+}
+.fas{
+    color: #5694CB;
+}
+.fa-regular{
+ color: #5694CB;
+}
+th{
+    
+    border: 2px solid #FFC200;
+    border-style: dashed;
+   }
+tr{
+    
+ border: 2px solid #FFC200;
+ border-style: dashed;
+}
+td{
+    
+    border: 2px solid #FFC200;
+    border-style: dashed;
+   }
+.comphead1{
+    position: absolute; margin-top: 17%;
+}
+.comphead2{
+    margin-top: 15%;
+}
+.tbmob{
+    display: none;
+}
+.btn-warning:focus{
+background-color: #FFC200;
+}
+@media only screen and (max-width: 1100px) {
+    .plan3{
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .plan1{
+      width: 50%;
+  }
+  .compared{
+    padding-top: 20%;
+  }
+  .basic{
+    margin-top: 0;
+   background-size: contain;
+  }
+  .premium{
+    margin-top: 0;
+    background-size: contain;
+  }
+  .standard{
+    background-size: contain;
+  }
+  }
+  @media only screen and (max-width: 1000px) {
+   .questions{
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+   }
+   .ques{
+    width: 70%;
+    display: contents;
+   }
+
+
+
+  }
+@media only screen and (max-width: 700px) {
+  .plan3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan1{
+    width: 60%;
+}
+
+  #pricingl{
+  margin-top: 25%;
+  }
+  #pricingR{
+    margin-top: 25%;
+}
+.forbg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 255px;
+}
+  
+.gapp{
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+}
+@media only screen and (max-width: 500px) {
+    .h11{
+        font-size: 30px;
+    }
+    .textpl{
+        margin-top: 81px;
+        font-size: 10px;
+    }
+ .pricing{
+    height: 150px;
+ }
+ #pricingl{
+    top: 80px;
+ }
+ #pricingbg{
+    height: 300px;
+ }
+.basic{
+  background-size: 100%;
+}
+.standard{
+    margin-top: -350px;
+background-size: 100%;
+}
+.premium{
+    margin-top: -350px;
+background-size: 100%;
+margin-bottom: -300px;
+}
+.ques{
+    width: 70%;
+    height: max-content;
+   }
+.compared{
+    padding-top: 40%;
+}
+#comphead{
+    margin-top: 10%;
+    width: 80%;
+}
+#flat{
+    width: 80%;
+}
+#resp2{
+    display: none;
+}
+#respbtn{
+    display: flex;
+    margin-left: 30;
+}
+.tbcom{
+    display: none;
+
+}
+.tbmob{
+    display: block;
+}
+}
+@media only screen and (min-width: 1601px) {
+
+.faqs{
+    margin-top: 100px;
+}
+.plan3{
+   padding-bottom: 100px;
+}
+.basic{
+    background-size: contain;
+
+}
+.premium{
+    background-size: contain;
+}
+.standard{
+    background-size: contain;
+}
+
+}

@@ -1,0 +1,145 @@
+
+.clients{
+  height: max-content;
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ flex-direction: row;
+ margin-top: 7%;
+ background-color: #08366D;
+ }
+ .client{
+  width: 25%;
+  height: max-content;  
+  text-align: center;
+  margin: 20px;
+  background-color: #08366D;
+  box-shadow: 10px 10px 8px #000000a4;
+}
+p{
+  color: white;
+}
+h5{
+  color: #FFC727;
+  
+}
+.checked{
+  color: #FFC727;
+  padding: 5px;
+}
+.checked:hover{
+  color: #5694CB;
+  font-size: 15px;
+}
+.cliental{
+  text-align: center;
+  height: 500px;
+}
+#carouselExampleControls{
+  margin-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.carousel-control-prev-icon{
+  margin-left: -90px;
+background-image: url("/assets/Vectorleft.png");
+}
+.carousel-control-next-icon{
+  margin-right: -90px;
+  background-image: url("/assets/Vectorright.png");
+
+}
+#bg-anim{
+  margin-top: 4.5%;
+  z-index: 99;
+  margin-left: -3px;
+  position: absolute; }
+
+#clientbg{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+#left{
+  cursor: pointer;
+}
+#right{
+  cursor: pointer;
+}
+a{
+  color: transparent;
+  text-decoration: underline;
+}
+
+
+
+.animate {
+  animation-name: slide-right;
+  animation-duration: 2s;
+  /* Preserve the effect of the animation at ending */
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-right {
+
+  from {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(-20%, 0);
+    opacity: 0.5;
+  }
+
+  to {
+    transform: translate(-50%, 0);
+    opacity: 0.2;
+  }
+}
+.carousel{
+  margin-top: 40px;
+}
+.card{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  background-color: #08366D;
+  box-shadow: 10px 10px 8px #000000a4;
+  cursor: pointer;
+}
+.carousel-inner{
+   justify-content: center;
+}
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .lap{
+    display: none;
+  }
+.mobile{
+  display: block;
+}
+#clientbg{
+   height: 0;
+}
+.cliental{
+  background-color: #08366D;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-control-next-icon{
+    margin-right: 0px;
+   }
+   .carousel-control-prev-icon{
+    margin-left: 0px;
+   }
+}

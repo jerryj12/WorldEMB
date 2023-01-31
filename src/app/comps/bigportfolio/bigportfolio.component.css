@@ -1,0 +1,310 @@
+.pricing{
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    
+}
+#phead{
+    margin-top: 40px;
+}
+#pricebg{
+    position: absolute;
+    height: 520px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+.pricetext{
+    margin-top: 10vw;
+}
+.btn{
+    background-color: white;
+    color: #5694CB;
+    font-weight: bolder;
+}
+
+#pricingl{
+    position: absolute;
+    width: 28%;
+    left: 0;
+    top: 180;
+    z-index: -1;
+}
+#pricingr{
+    position: absolute;
+    width: 31%;
+    right: 0;
+    top: 50px;
+    z-index: -1;
+}
+#pp{
+    z-index: 9999; color: #FFD243; font-size: 100px; font-weight: bold;
+}
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    height: max-content;
+}
+.sizes1{
+    height: max-content;
+    width: 50%;
+
+    
+}
+.siztext{
+    padding: 40px;
+
+}
+.sizimage{
+    float: right;
+}
+.upload{
+    height: max-content;
+    width: 100%;
+    background-color: 5694CB;
+}
+
+.ul{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.li{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+   
+}
+.has-text-centered{
+    text-align: center;
+}
+.work{
+    text-align: center;
+    width: 100%;
+}
+.arts{
+    float: right;
+    width: 30%;
+    margin-top: 50px;
+}
+.arts2{
+    text-align: center;
+}
+.btn-l{
+margin: 10px;
+width: 200px;
+}
+.btn2{
+    background-color: white;
+    margin: 4px;
+    width: 200px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+.ngx-pagination{
+    margin-left: 30%;
+}
+.btn-l:focus{
+background-color: #FFC200;
+}
+.btlast{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.btfirst{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.order10{
+    background-color: #FFC200;
+    text-align: center;
+    padding: 60px;
+}
+
+/*    New Carousel   */
+
+.modal button.close {
+    right: 0;
+    outline: 0;
+  }
+    
+  #gallery-lightbox img {
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  #gallery-lightbox img:hover {
+    opacity: 0.9;
+    transition: 0.5s ease-out;
+  }
+
+
+
+
+/*
+.lightbox {
+    /* Default to hidden 
+    display: none;
+  
+    /* Overlay entire screen 
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /* A bit of padding around image 
+    padding: 1em;
+  
+    /* Translucent background 
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Unhide the lightbox when it's the target 
+  .lightbox:target {
+    display: block;
+  }
+  
+  .lightbox span {
+    /* Full width and height 
+    display: block;
+    width: 80%;
+    height: 80%;
+  
+    /* Size and position background image 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  } */
+  .li2{
+  display: none;
+  }
+  .li3{
+  display: none;
+  }
+  .li4{
+    display: none;
+    }
+  @media only screen and (max-width: 1530px) {
+.li1{
+    display: none;
+}
+.li2{
+    display: block;
+}
+.li3{
+    display: none;
+}
+
+  }
+  @media only screen and (max-width: 1063px) {
+    .li1{
+        display: none;
+    }
+    .li2{
+        display: none;
+    }
+    .li3{
+        display: block;
+    }
+    .li4{
+        display: none;
+    }
+    
+      }
+@media only screen and (max-width: 880px) {
+.sizes{
+    flex-direction: column;
+    background-size: 300%;
+}
+.sizes1{
+    margin: auto;
+    width: 70%;
+}
+.li3{
+    display: block;
+}
+.ngx-pagination{
+    margin-left: 0px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  /*  #pricingl{
+        margin-top: 25%;
+        }
+        #pricingR{
+          margin-top: 25%;
+      } */
+      .siztext{
+        padding: 0px;
+    }
+    .sidevec{
+        display: none;
+    }
+    .arts{
+        width: 66%;
+    }
+    .ul{
+        width: 100%;
+    }
+    .li3{
+        display: block;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+#sidevec1{
+    display: none;
+}
+.arts{
+    width: 80%;
+}
+.li4{
+    display: block;
+}
+.li1{
+    display: none;
+}
+.li2{
+    display: none;
+}
+.li3{
+    display: none;
+}
+li{
+    height: 200px;
+    width: 200px;
+}
+.modalmob{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+#pp{
+    font-size: 60px;
+    font-weight: bold;
+}
+.btn-l{
+    margin: 5px;
+    width: 126px;
+}
+}

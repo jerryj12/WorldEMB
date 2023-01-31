@@ -1,0 +1,457 @@
+.pricing{
+    text-align: center;
+    height: 279px;
+    width: 100%;
+    
+}
+#phead{
+    margin-top: 40px;
+}
+#pricebg{
+    position: absolute;
+    height: 607px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+.pricetext{
+    margin-top: 10vw;
+}
+.btn-m{
+    background-color: white;
+    color: #5694CB;
+}
+
+#pricingl{
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#pricingr{
+    position: absolute;
+    width: 30%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.h11{
+    z-index: 9999; font-weight: bold; font-size: 70px;
+}
+#bg-anim{
+    margin-top: 10%;
+    z-index: 99;
+    position: absolute; }
+    .services{
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+        background-color: white;
+    }
+.servicescontainer{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 100px;
+}
+.serv{
+       height: max-content;
+       width: 25%;
+       margin: 3%;
+}
+.hover-fx:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(2px, 0, 0);
+  }
+}
+.quality-assurance{
+    height: max-content;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  /*   background-color: #062150;
+   transform: matrix(1, 0.05, 0.05, 1, 0, 0); */
+    flex-direction: row;
+ 
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+   }
+ 
+   .quality{
+       width: 40%;
+       height: max-content;
+       
+   }
+   #qualityimage{
+    width: 100%;
+   }
+   #qualbg{
+    position: absolute;
+    z-index: -1;
+    height: 113%;
+    width: 100%;
+   }
+   .ordernow1{
+    display: flex;
+    margin-top: 100px;
+    height: max-content;
+    width: 100%;
+    justify-content: space-evenly;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+.viewport{
+    display: flex;
+    background-image: url('/assets/vport.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    width: 100%;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding: 20px;
+}
+.port1{
+    color: white;
+    font-weight: bold;
+    width: 25%;
+}
+.port2{
+    background: #FFC200;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 105px;
+height: max-content;
+font-weight: bold;
+border: 0px;
+width: 10%;
+padding: 10px;
+}
+#order1{
+    position: absolute;
+    width: 100%;
+    /* z-index: -1; */
+    z-index: 99;
+    margin-top: -65px;
+    height: 200px;
+
+}
+.ordertext1{
+    font-weight: bold;
+    z-index: 99;
+    padding-bottom: 20px
+}
+.btn-button{
+    color: white;
+    font-weight: bold;
+    z-index: 999;
+    background: #08366D;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 105px;
+    padding: 20px;
+    width: 250px;
+    
+    margin-bottom: 50px;
+
+}
+
+.carousel-control-prev-icon{
+    background-image: url('/assets/vvecl.png');
+    background-size: initial;
+}
+.carousel-control-next-icon{
+    background-image: url('/assets/vvecr.png');
+    background-size: initial;
+}
+
+.embrioder{
+    text-align: center;
+    align-items: center;
+ }
+ .embtypes{
+    background: #9ACFFD;
+border: 13px solid #5694CB;
+border-radius: 6px;
+width: 80%;
+height: max-content;
+margin-left: 10%;
+display: flex;
+flex-direction: row;
+padding: 20px;
+/* align-items: center; */
+justify-content: center;
+ }
+ .type{
+    width: 40%;
+    height: max-content;
+ }
+.btn-1{
+    background: #5694CB;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+.btn-2{
+    background: #E8E8E8;
+    padding: 10px;
+    color: #5694CB;
+}
+#vbg2{
+    position: absolute;
+    width: 100%;
+}
+.forms-cont{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #5694CB;
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    z-index: 99999;
+    position: relative;
+    padding-top: 100px;
+    }
+    form{
+        width: 50%;
+    }
+    input{
+        border:2px solid #5694CB;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 15px;
+    }
+    #text{
+       
+        width: 50%;
+      float: left;
+    }
+    #email{
+        width: 50%;
+        float: right;
+    }
+    #phone{
+        width: 90%;
+    }
+    textarea{
+        margin: 10px;
+        width: 90%;
+        border:2px solid #5694CB;
+        border-radius: 10px;
+    }
+    .for-m{
+        width: 50%;
+        padding-left: 5%;
+        background-color: #5694CB;
+    }
+    #contmock{
+        height: 500px;
+        width: 500px;
+    }
+    select{
+        border: 0px;
+        width: max-content;
+        padding-left: 20px;
+    }
+    #file{
+        width: 90%;
+    }
+    #textin{
+        width: 85%;
+    }
+    #emailin{
+        width: 80%;
+    }
+    .wantques{
+        color: white; 
+        text-align: center;
+        background: #062150;
+        padding: 15px;
+        margin-right: 10%;
+box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+border-radius: 52px;
+    }
+   
+    @media only screen and (max-width: 1200px) {
+        .for-m{
+              padding-left: 50px;
+        }
+    
+    }
+
+@media only screen and (max-width: 1100px) {
+.embtypes{
+    width: 100%;
+    margin-left: 0;
+}
+
+}
+   @media only screen and (max-width: 991px) {
+    .quality-assurance{
+        height: max-content;
+        width: 100%;
+        justify-content: center;
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       flex-direction: column;
+       
+       }
+       .qa2{
+        flex-direction: column-reverse;
+       }
+       .quality{
+        width: 40%;
+        height: max-content;
+        width: 80%;   
+    
+    
+    }
+    .viewport{
+        flex-direction: column;
+        background-size: cover;
+    }
+    #vbg2{
+        height: 1200px;
+    }
+    .view{
+width: max-content;
+    }
+    .h11{
+        font-size: 52px;
+    }
+    .embtypes{
+        flex-direction: column;
+    }
+    .type{
+        width: 90%;
+    }
+    .forms-cont{
+        flex-direction: column;
+    }
+    .for-m{
+        width: 80%;
+    }
+    #text{
+        width: 90%;
+        float: none;
+    }
+    #email{
+        width: 90%;
+        float: none;
+    }
+    #textin{
+        width: 100%;
+    }
+    #emailin{
+        width: 100%;
+    }
+    }
+    @media only screen and (max-width: 700px) {
+        .h11{
+            font-size: 30px;
+        }
+    #headv{
+        height: 57px;
+    }
+    }
+@media only screen and (max-width: 600px) {
+   
+    .textpl{
+        margin-top: 81px;
+        font-size: 10px;
+    }
+ .pricing{
+    height: 164px;
+ }
+ #pricingl{
+    top: 80px;
+ }
+ #pricingbg{
+    height: 300px;
+ }
+
+#pricebg{
+    height: 110%;
+}
+    .serv{
+        width: 80%;
+    }
+    #inspired-bg{
+        margin-top: 20%;
+
+    }
+    #serv-thread{
+        display: none;
+    }
+    #qualityimage{
+        width: 100%;
+       
+    }
+  
+    .ordernow1{
+        margin-top: 100px;
+        flex-direction: column;
+       }
+       .ordertext1{
+        width: 60%;
+       }
+       #order1{
+        width: 100%;
+        height: 300px;
+       }
+       .for-m{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .con{
+        border: 0px;
+        box-shadow: 0px 0px;
+        width: 100%;
+    }
+    #contmock{
+        height: 250px;
+        width: 250px;
+    }
+    #vbg2{
+        height: 1000px;
+    }
+   .qalast{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+}
+

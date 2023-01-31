@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+}
+#footicon{
+    font-size: 30px;
+}
+footer{
+    background-color: rgba(17,60,138,255);
+}
+a{
+    font-size: 13px;
+}
+.formsub{
+    text-align: center;
+}
+.btn{
+    background-color: azure;
+    color: black;
+    border: 1px solid white;
+}
+.btn:hover{
+    background-color:  rgba(17,60,138,255);
+    color: aliceblue;
+}
+.rounded-circle{
+    width: 150px;
+    height: 150px;
+
+}
+.embtt{
+    font-size: 35px;
+    font-weight: bold;
+
+   
+ 
+}

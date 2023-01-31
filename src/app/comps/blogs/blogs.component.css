@@ -1,0 +1,167 @@
+.pricing{
+    text-align: center;
+    height: 40%;
+    width: 100%;
+    
+}
+#phead{
+    margin-top: 40px;
+}
+#pricebg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+.pricetext{
+    margin-top: 10vw;
+}
+.btn{
+    background-color: white;
+    color: #5694CB;
+}
+
+#pricingl{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#pricingr{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    right: 0;
+    top: 100px;
+    z-index: -1;
+}
+#bloghead{
+    z-index: 9999; color: #FFC727; font-weight: bold; font-size: 100px;
+}
+.blogs{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+}
+.bl{
+width: 50%;
+padding: 100px;
+height: max-content
+}
+.carousel-control-next-icon {
+    background-image: url('/assets/blogvl.png');    
+ /*   margin-right: -200%; */
+     width: 10px;
+ height: 10px;
+}
+.carousel-control-prev-icon{
+    background-image: url('/assets/blogvr.png'); 
+  /*   margin-left: -200%;; */
+    width: 10px;
+    height: 10px;
+}
+.carousel-control-prev{
+margin-left: -10%;
+}
+.carousel-control-next{
+margin-right: -10%;
+}
+.date{
+    position: absolute;
+    width: 40%;
+    right: 4;
+}
+.blog2{
+    margin: 50px;
+    background: rgba(173, 217, 255, 0.37);
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+width: 50%;
+height: max-content;
+}
+.blog21{
+    width: 45%;
+    float: left;
+    margin: 5px;
+}
+.blog22{
+    width: 45%;
+    float: right;
+    margin: 5px;
+}
+.blog23{
+    width: 45%;
+    float: left;
+    margin: 5px;
+}
+.blog24{
+    width: 45%;
+    float: right;
+    margin: 5px;
+}
+.pagination{
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 30%;
+}
+.btn-sm{
+    background-color: transparent;
+}
+@media only screen and (max-width: 1200px) {
+
+h5{
+    font-size: 13px;
+}    
+
+}
+@media only screen and (max-width: 1050px) {
+    .blogs{
+        flex-direction: column;
+    }
+    .bl{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 616px) {
+.bl{
+    padding: 10px;
+}
+    .blog21{
+        width: 90%;
+        float: none;    }
+    .blog22{
+        width: 90%;
+        float: none;
+    }
+    .blog23{
+        width: 90%;
+        float: none;
+    }
+    .blog24{
+        width: 90%;
+        float: none;
+    }
+}
+@media only screen and (max-width: 560px) {
+#bloghead{
+    font-size: 50px;
+}
+.blog2{
+    margin: 10px;}
+.d-block{
+    height: 250px;
+    width: 250px;
+}
+}
+@media only screen and (max-width: 400px) {
+    .bl{
+        padding: 5px;
+    }
+
+}
